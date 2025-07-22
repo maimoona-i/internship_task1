@@ -1,0 +1,108 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial scale=1.0" />
+    <title>Portfolio - Maimoona Imran</title>
+    <style>
+        * {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: white;
+            padding: 30px;
+            box-shadow: 0 10px 15px rgba(0, 0,0,0.2);
+        }
+
+        nav {
+            display: flex;
+            justify-content: flex-end;
+            gap: 30px;
+        }
+
+            nav a {
+                text-decoration: none;
+                font-weight: bold;
+                color: black;
+            }
+
+        body {
+            background-color: #F0F0F0;
+        }
+        .edu {
+            margin-top: 10px;
+            display: flex;
+            justify-content: center;
+            gap: 250px;
+            flex-wrap: wrap;
+        }
+
+        .edubox {
+            border-radius: 60px;
+            background: linear-gradient(to bottom right, #cccccc, #afb4b6);
+            width: 390px;
+            height: 70px;
+            padding: 30px 20px 280px 20px;
+            text-align: center;
+            box-shadow: 10px 10px 15px black;
+        }
+
+            .edubox h2 {
+                font-size: 30px;
+            }
+
+            .edubox h3, ul {
+                margin: 15px 30px 10px 35px;
+                text-align: left;
+            }
+
+        .iconimg {
+            border-radius: 50%;
+            width: 80px;
+            height: 80px;
+            background-color: #2f2f2f;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="Page1.html">Home</a>
+            <a href="Page2.html">About</a>
+            <a href="Page3.html">Skills</a>
+            <a href="Page4.html">Education</a>
+            <a href="Page5.html">Experience</a>
+            <a href="Page6.html">Contact</a>
+        </nav>
+    </header>
+    <section>
+        <h1 style="font-size: 30px; text-align: center; padding:50px; margin-top:20px;"><span style="color: #f97a1f">Edu</span>cation</h1>
+        <div class="edu">
+            <div class="edubox">
+                <img class="iconimg" src="icon1.png" alt="web development icon" />
+                <h2> O Levels </h2>
+                <h3>From EMS High School</h3>
+                <ul>
+                    <li>Major Subject Computer Science</li>
+                    <li>From 2019-2021</li>
+                    <li>Obtained percentage 94%</li>
+                </ul>
+            </div>
+            <div class="edubox">
+                <img class="iconimg" src="icon2.png" alt="frontend tools icon" />
+                <h2> BSCS</h2>
+                <ul>
+                    <li>From National University of Computer and Emerging Sciences</li>
+                    <li>Major Subject: Computer Science</li>
+                    <li>From 2023 to ongoing</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+</body>
+</html> 

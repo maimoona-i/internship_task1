@@ -1,0 +1,123 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial scale=1.0" />
+    <title>Portfolio - Maimoona Imran</title>
+    <style>
+        * {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: white;
+            padding: 30px;
+            box-shadow: 0 10px 15px rgba(0, 0,0,0.2);
+        }
+
+        nav {
+            display: flex;
+            justify-content: flex-end;
+            gap: 30px;
+        }
+
+            nav a {
+                text-decoration: none;
+                font-weight: bold;
+                color: black;
+            }
+
+        body {
+            background-color: #F0F0F0;
+        }
+
+        .about_text{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 30px 150px;
+            gap:50px;
+        }
+
+        .about_text img {
+            max-width: 200px;
+            border-radius: 50%;
+        }
+        .intro {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 40px 50px;
+            gap:280px;
+        }
+        .intro_circle {
+            background-color: #85adad;
+            border-radius: 50%;
+            width:380px;
+            height:380px;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            margin-top:-40px;
+        }
+        .intro_text p {
+            font-family: 'Segoe UI', sans-serif;
+            font-size: 17px;
+            color: #333;
+            line-height: 1.5;
+            margin-top: 10px;
+        }
+        .project_circle {
+            background-color: #85adad;
+            border-radius: 50%;
+            width: 380px;
+            height: 380px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="Page1.html">Home</a>
+            <a href="Page2.html">About</a>
+            <a href="Page3.html">Skills</a>
+            <a href="Page4.html">Education</a>
+            <a href="Page5.html">Experience</a>
+            <a href="Page6.html">Contact</a>
+        </nav>
+    </header>
+    <section class="about">
+        <div class="about_text">
+            <h1 style="font-size:50px;font-weight:normal"> <span style="color:#f97a1f;margin-right:15px">About </span> Me!   </h1>
+            <img src="intro_img1.jpg" alt="character image" />
+        </div>
+        <div class="intro">
+            <div class="intro_circle">
+                <h1 style="color: #f97a1f;font-size:55px">Intro</h1>
+            </div>
+            <div class="intro_text">
+                <p style="text-align:left">
+                    I'm a passionate Web Developer who loves turning ideas into beautiful,<br /> responsive websites. With a strong foundation in HTML, CSS, and<br /> JavaScript, I focus on creating clean, user-friendly interfaces. I'm always<br /> learning new technologies and improving my skills to deliver the best<br /> digital experiences.
+                </p>
+            </div>
+        </div>
+        <div class="intro">
+            <div class="intro_text">
+                <p style="text-align:left">
+                    I have developed several projects across different technologies,<br /> including a Product Inventory Management System built with  <br /> Laravel, and a Maze Pathfinding Simulation using Python that <br /> implements AI algorithms such as BFS, DFS, and A*. I also created a<br /> Responsive Portfolio Website to showcase my skills and interests, <br /> as well as a Shopping Cart Web Application using ASP.NET MVC <br /> featuring session-based login functionality.
+                </p>
+            </div>
+            <div class="project_circle">
+                <h1 style="color: #f97a1f;font-size:55px">Projects</h1>
+            </div>
+        </div>
+    </section>
+</body>
+</html> 
